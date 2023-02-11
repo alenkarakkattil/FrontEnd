@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+    font-size: 50px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #251B37;
+}
+
+.container{
+    display: flex;
+    width: 90vw;
+}
+
+.panel{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+    border-radius: 80px;
+    cursor: pointer;
+    flex: 0.3;
+    margin: 15px;
+    transition: flex 0.7s ease-in;
+    color: #fff;
+
+}
+
+.panel h3{
+    position: absolute;
+    bottom: 35px;
+    left: 45px;
+    font-size: 24px;
+    margin: 0;
+    opacity: 0;
+}
+
+.panel.active h3{
+    opacity: 1;
+    font-size: 35px;
+    font-weight: 700;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+.panel.active{
+    flex: 5;
+    box-shadow: 15px 15px 15px #150d22;
+}
+
+@media (max-width:480px){
+    .container{
+        width: 100vw;
+    }
+}
+

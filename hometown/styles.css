@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    text-align: center;
+
+}
+
+
+
+.hero{
+    background: url("./images/mm.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 720px;
+    height: 343px ;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1{
+    color: white;
+    background: #1D3557;
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 4px 10px;
+    width: 160px;
+    height: 30px;
+    margin-top: 115px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color: white;
+    background: #457B9D;
+    font-size: 15px;
+    border-radius: 7px;
+    width: 380px;
+    height: 40px;
+    padding: 2px 8px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.activities{
+    background-color: #F1FAEE;
+    width: 720px;
+    height: 343px;
+    margin: auto;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.act-img{
+    margin-top: 20px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+.guide{
+    width: 720px;
+    height: 400px;
+    margin: auto;
+    padding: 50px 150px;
+    background: #1D8557;
+
+}
+
+.gd-bdr{
+    border:none;
+    border-radius: 10px;
+    border-bottom: 8px solid #1D3557;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+    background: #A8DADC;
+}
+
+.pee{
+    height: 250px;
+    width: 180px;
+}
+
+.gd1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+p{
+    
+    margin-top: 5px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+h4{
+    margin-top: 5px;
+}
