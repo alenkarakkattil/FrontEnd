@@ -31,7 +31,7 @@ body{
     margin: 15px;
     transition: flex 0.7s ease-in;
     color: #fff;
-
+    box-shadow: 15px 15px 15px #1e1231;
 }
 
 .panel h3{
